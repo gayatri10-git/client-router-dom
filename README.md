@@ -1,16 +1,75 @@
-# React + Vite
+# Client Side Routing with React Router DOM
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React application built using Vite, Tailwind CSS, and React Router DOM.
+This project demonstrates client-side routing with a clean UI layout including Header,
+Hero, Team, Features, and Footer sections.
 
-Currently, two official plugins are available:
+Tech Stack
+- React (Vite)
+- Tailwind CSS
+- React Router DOM
+- JavaScript (ES6)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Project Structure
 
-## React Compiler
+client-router-dom/
+├── src/
+│   ├── components/
+│   │   ├── header.jsx
+│   │   ├── hero.jsx
+│   │   ├── team.jsx
+│   │   ├── feature.jsx
+│   │   └── footer.jsx
+│   │
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── public/
+├── index.html
+├── package.json
+├── tailwind.config.js
+├── postcss.config.js
+├── vite.config.js
+└── README.md
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Routes
 
-## Expanding the ESLint configuration
+/         → Home (Hero section)
+/team     → Team section
+/feature  → Feature section
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Navigation is implemented using NavLink from react-router-dom.
+
+Installation & Setup
+
+1. Clone the repository
+
+git clone https://github.com/gayatri10-git/client-router-dom.git
+
+2. Move into the project folder
+
+cd client-router-dom
+
+3. Install dependencies
+
+npm install
+
+4. Start development server
+
+npm run dev
+
+5. Open in browser
+
+http://localhost:5173/
+
+Features
+- Client-side routing
+- Component-based React architecture
+- Responsive UI using Tailwind CSS
+- Clean and scalable project structure
+
+Author
+Gayatri  
+GitHub: https://github.com/gayatri10-git
+
+
